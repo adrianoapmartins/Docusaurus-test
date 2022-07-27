@@ -36,7 +36,7 @@ We just added Reviewpad as a GitHub action. We now need to add you're project co
 Step 3. Add `reviewpad.yml` to the root of the repository
 =========================================================
 
-Reviewpad is extremely configurable. You can use it to automate PR labelling or comment when something is not right. It all depends on your project requirements. You can later check the [documentation](/docs/aladino-builtins) to see all you can do with Reviewpad.
+Reviewpad is extremely configurable. You can use it to automate PR labelling or comment when something is not right. It all depends on your project requirements.
 
 For now let's add a simple configuration. For that navigate to the root of your repository and add a new file named `reviewpad.yml` with the following content:
 
@@ -90,8 +90,6 @@ workflows:
 ```
 
 This particular configuration will ask Reviewpad to label you PRs based on their size.
-
-You can do much more with Reviewpad. Start by looking at some of Reviewpad [use cases](/docs/shipshowask) or jump right into the available [builtins](/docs/aladino-builtins).
 
 > ❗ ️ Terms and Conditions
 > 
