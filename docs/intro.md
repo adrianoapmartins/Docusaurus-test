@@ -2,46 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to Reviewpad
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Reviewpad is an easy-to-use GitHub Action to accelerate the software delivery lifecycle. 
 
-## Getting Started
+Reviewpad reads a `reviewpad.yml` configuration file from your repository where you can specify pull request workflows. The action enforces and automates those processes so that developers can have more time for the things that really matter!
 
-Get started by **creating a new site**.
+<h2>Why Reviewpad?</h2>
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**Pull requests take too much time to merge.**
 
-### What you'll need
+Most actions around pull requests such as reviewer assignment, the code review itself and the merge actions are still manual. It is up to the developers to understand 1) who should review, 2) what to review, 3) when to merge and 4) how to merge. 
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+We believe that most of these actions follow an implicit team policy that could be specified and automated.
 
-## Generate a new site
+So we have created Reviewpad to help you automate:
+1. Pull request merges;
+2. Code review assignment policies;
+3. Custom code quality and security comments;
+4. Pull request labels.
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Finally, having workflow configurations in a git repository allows them to be updated in a consistent way and help onboarding new team members.
