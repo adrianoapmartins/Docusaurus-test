@@ -1,3 +1,5 @@
+# First Action: Label based on size
+
 This page will help you run your first Reviewpad Action to automatically label pull requests in a GitHub repository depending on their size.
 
 You can check this Reviewpad action in the GitHub repository [reviewpad/action-showcase](https://github.com/reviewpad/action-showcase).
@@ -27,8 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Running reviewpad action
-        # Set version v2.x to automatically receive minor and patch updates
-        uses: reviewpad/action@v2.x
+        # Set version v3.x to automatically receive minor and patch updates
+        uses: reviewpad/action@v3.x
 ```
 
 The source code of the GitHub Action can be found in the GitHub repository [reviewpad/action](https://github.com/reviewpad/action).
@@ -39,7 +41,7 @@ Step 2. Add `reviewpad.yml` to the root of the repository
 Add the configuration file `reviewpad.yml` to the root of your repository.
 
 ```yaml
-api-version: reviewpad.com/v2.x
+api-version: reviewpad.com/v3.x
 
 labels:
   small:
