@@ -1,3 +1,5 @@
+# Introduction to Reviewpad
+
 Reviewpad is a DSL (Domain Specific Language) based on YML that configures a list of automated actions over filters on pull requests. 
 
 The main features of Reviewpad are:

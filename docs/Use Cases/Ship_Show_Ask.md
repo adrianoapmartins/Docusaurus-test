@@ -1,3 +1,5 @@
+# Ship/Show/Ask
+
 [Ship / Show / Ask](https://martinfowler.com/articles/ship-show-ask.html) is a methodology to increase the pace of software teams by not having to block developers for each pull request. 
 
 It can easily be implemented with this new solution by specifying policies for teams to allow them to automatically merge certain PRs.
