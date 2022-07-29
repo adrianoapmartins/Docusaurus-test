@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/reviewpad',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/reviewpad',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,12 +69,6 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-/*          {
-            type: 'doc',
-            docId: 'index',
-            position: 'left',
-            label: 'Changelog',
-          },*/
           {to: '/changelog', label: 'Changelog', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
