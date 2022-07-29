@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Reviewpad Docs',
   tagline: 'Documentation for the best product in the world',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/Docusaurus-test/',
+  url: 'https://Docusarus-Reviewpad.com',
+  baseUrl: '/Docusaurus-Reviewpad/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
