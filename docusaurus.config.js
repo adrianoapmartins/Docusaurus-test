@@ -69,13 +69,20 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+/*          {
+            type: 'doc',
+            docId: 'index',
+            position: 'left',
+            label: 'Changelog',
+          },*/
+          {to: '/changelog', label: 'Changelog', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'docsVersionDropdown',
             position:'right',
           },
           {
-            href: 'https://github.com/reviewpad',
+            href: 'https://github.com/reviewpad/',
             label: 'GitHub',
             position: 'right',
           },
@@ -88,7 +95,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
             ],
@@ -97,16 +104,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.com/reviewpad',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/reviewpad',
               },
             ],
           },
@@ -114,17 +117,21 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Changelog',
+                to: '/changelog',
+              },
+              {
                 label: 'Blog',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/reviewpad',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Reviewpad, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
